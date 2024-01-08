@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    color: white;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 20px;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: green;
+}
+
+header span{
+    color: white;
+}
+
+.mylogo{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+    margin-left: 35px;
+}
+
+.navbar > a{
+    position: relative;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 30px;
+    
+}
+
+.navbar a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 20px 50px 20px 50px;
+    padding: 9px;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-color: green;
+    padding: 70px 10%;
+}
+
+.conteudo{
+    max-width: 600px;
+    margin-top: 270px;
+    margin-left: 55px;
+}
+
+.conteudo h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.conteudo h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: -3px 0;
+    color: rgb(0, 0, 0);
+}
+
+.conteudo p {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: green;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    text-align: center;
+}
+
+.imagem-container{
+    position: absolute;
+    top: 25%;
+    right: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imagem-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 18px;
+    top: 38%;
+}
+
+.icon li{
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.icon li:hover a img{
+    transform: scale(0.7) rotate(300deg);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.infor{
+    max-width: 600px;
+    margin-top: 270px;
+    margin-left: 55px;
+}
+
+.infor h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: -3px 0;
+    color: green;
+}
+
+.infor h2{
+    width: 100%;
+    height: 100%;
+    color: rgb(7, 7, 7);
+    text-align: justify;
+}
+
+.servicos{
+    margin-top: 80px;
+}
+
+.servicos h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: -3px 0;
+    color: green;
+    text-align: center;
+    
+}
+
+.servicos ul{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.servicos li{
+    background-color: white;
+    margin-right: 67px;
+    margin-left: 67px;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    text-align: center;
+    
+}
+
+.servicos a{
+    text-decoration: none;
+    color: green;
+    font-size: 24px ;
+}
+
+.servicos li img{
+    padding-top: 20px;
+    width: 210px;
+    height: 210px;
+}
+
+.contatos{
+    font-size: 15px;
+    font-weight: 500;
+    margin: -3px 0    
+}
+
+.contatos h1{
+    text-align: center;
+    background-color: green;
+}
+
+.contatos h2{
+    margin-left: 20px;
+}
+
+.contatos p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: -3px 0;
+    color: white;
+    text-align: justify;
+    background-color: green;
+    margin-left: 20px;
+}
+
+footer{
+    background-color: green;
+    width: 100%;
+    height: 90%;
+}

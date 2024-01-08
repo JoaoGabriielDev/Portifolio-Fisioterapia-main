@@ -1,0 +1,23 @@
+.nome-home {
+  color: green;
+}
+
+/**
+.nome-home {
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  border-right: 2px solid;  Adiciona um cursor piscante 
+  animation: digitar 3s steps(14, end) forwards;
+}
+
+@keyframes digitar {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: auto;
+  }
+}
+*/
